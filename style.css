@@ -1,0 +1,65 @@
+body{
+    background-position: center;
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.heading{
+    width: 30%;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 20;
+ 
+}
+
+.header{
+    background-image: linear-gradient(to right, rgb(53, 139, 221) , rgb(255, 255, 255));
+    width: 85%;
+    border-radius: 0 0 14px 14px;
+    height: 125px;
+    padding: 3px;
+}
+
+.title{
+    color: aliceblue;
+}
+
+input{
+    width: 30%;
+    height: 35px;
+    border-radius: 12px;
+}
+
+#object_name_label{
+    color: rgb(209, 207, 207);
+}
+
+#start_btn{
+    background-color:rgb(115, 180, 240);
+    color: aliceblue;
+    font-size: 20px;
+    width: 10%;
+    border-radius: 12px;
+}
+
+#status{
+    background-color: rgb(247, 218, 241);
+}
+
+#fonud_or_not{
+    background-color: rgb(172, 213, 236);
+}
+
+canvas{
+    border-radius: 20px;
+}
+
+#copyright_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 2;
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+}
